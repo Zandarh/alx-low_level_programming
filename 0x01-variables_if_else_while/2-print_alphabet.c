@@ -9,9 +9,9 @@
 
 int main(void)
 {
-	int i = 87;
+	int i = 97;
 
-	while (i < 113)
+	while (i < 123)
 	{
 		putchar(i);
 		i++;
