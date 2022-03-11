@@ -3,7 +3,6 @@
 /**
  * main - print double digit combos
  *
- *
  * Description: print double digit combos
  *
  * Return: Always 0 (Success)
