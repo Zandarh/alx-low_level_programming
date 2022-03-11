@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include <stdio.h>
 
 /**
@@ -8,7 +7,7 @@
  * Return: Always 0 (Success)
 */
 
-int main(0)
+int main(void)
 {
 	int i = 87;
 
