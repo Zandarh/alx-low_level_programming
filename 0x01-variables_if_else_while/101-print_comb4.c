@@ -21,17 +21,28 @@ int main(void)
 		j = i + 1;
 		while (j < 58)
 		{
-			putchar(i);
-			putchar(j);
-			putchar(k);
-			if (i < 55 || j < 56 || k < 57)
+			k = j + i;
+			while (k < 58)
 			{
-				putchar(44);
-				putchar(32);
-			}
-			k++;
+
+				putchar(i);
+				putchar(j);
+				putchar(k);
+				if (i < 55 || j < 56 || k < 57)
+				{
+					putchar(44);
+					putchar(32);
+
+				}
+				k++;
+			}	
+			j++;
 		}
-		j++;
+		i++;
 	}
-	i++;
+	
+	putchar(10);
+
+	return (0);
+	
 }
