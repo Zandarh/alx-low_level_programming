@@ -14,7 +14,7 @@ int main(void)
 	while (i < 113)
 	{
 		putchar(i);
-		i++
+		i++;
 	}
 	putchar(10);
 
