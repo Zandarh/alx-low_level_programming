@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * min - print the letters of the alphabeth
+ * main - print the letters of the alphabeth
  *
  * Description: print the letters of the alphabeth except e, q
  *
