@@ -6,7 +6,7 @@
  *
  * Description: print last digit in random number
  * 
- * Return: Always 0 (Success0
+ * Return: Always 0 (Success)
 */
 
 int main(void)
@@ -32,5 +32,3 @@ int main(void)
 	return (0);
 
 }
-
-
