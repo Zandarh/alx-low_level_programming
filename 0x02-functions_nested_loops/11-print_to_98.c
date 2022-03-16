@@ -1,17 +1,22 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
+
 /**
- * print_to_98 - Print all natural numbers from n to 98
- * @n: int type number
- */
+* print_to_98 - prints numbers to 98
+* @n: starting integer
+*
+* Description: prints all antural number from n - 98
+*
+* Return: void
+*/
 
 void print_to_98(int n)
 {
-	if (n < 9)
+	if (n < 98)
 	{
 		while (n < 98)
 		{
-			printf("%d", n);
+			printf("%d, ", n);
 			n++;
 		}
 	}
@@ -19,7 +24,7 @@ void print_to_98(int n)
 	{
 		while (n > 98)
 		{
-			printf("%d", n);
+			printf("%d, ", n);
 			n--;
 		}
 	}
