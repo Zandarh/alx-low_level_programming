@@ -2,7 +2,7 @@
 /**
  * _islower - checks for lowercase character
  * @c: char type lette
-  Return: 1 if c is lowercase and 0 otherwise
+ * Return: 1 if c is lowercase and 0 otherwise
  */
 
 int _islower(int c)
