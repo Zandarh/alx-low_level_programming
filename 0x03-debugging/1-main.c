@@ -13,10 +13,7 @@ int main(void)
 
 	i = 0;
 
-	while (i < 10)*/
-	/*{*/
-	/*	putchar(i);*/
-	/*}*/
+	while (i < 10) // This is where the loop goes to infinity
 	{
 		putchar(i);
 	}
