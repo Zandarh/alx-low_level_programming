@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * size_t print_list - Prints all the elements of a list_t list
+ * print_list - Prints all the elements of a list_t list
  * @h: points to
  * Return: number of elements in the list.
  */
